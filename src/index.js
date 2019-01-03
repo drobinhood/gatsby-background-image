@@ -112,6 +112,7 @@ const Img = React.forwardRef((props, ref) => {
             height: `100%`,
             objectFit: `cover`,
             objectPosition: `center`,
+            display: `none`,
             ...style,
           }}
       />
